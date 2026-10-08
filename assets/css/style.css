@@ -23,10 +23,14 @@ header {
     background-color: lightcoral;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Main Content */
 main {
     background-color: lightblue;
-    /* make the main element take uo any surplus space to push the footer down */
+    /* make the main element take up any surplus space to push the footer down */
     flex: 1 0 auto;
 }
 
