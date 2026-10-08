@@ -25,7 +25,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -50,7 +50,7 @@ h1 {
 }
 
 #menu > li {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 .active {
@@ -70,7 +70,7 @@ nav {
 }
 
 /* Nav toggle */
-#nav-toggle:checked ~ nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 #nav-toggle {
@@ -89,8 +89,18 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: orange;
+#social-media {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#social-media i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media query: tablets and larger (768px and up) */
