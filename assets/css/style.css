@@ -239,7 +239,7 @@ hr {
 @media screen and (min-width: 1200px) {
   #benefits {
     display: flex;
-    direction: row;
+    flex-direction: row;
   }
   #benefits > div {
     flex: 1;
@@ -247,13 +247,13 @@ hr {
   #benefits-image {
     order: 0;
   }
-  benefits-mental {
+  #benefits-mental {
     order: 1;
   }
-  benefit-mental > div {
+  #benefit-mental > div {
     align-self: flex-start;
   }
-  benefits-physical > div {
+  #benefits-physical > div {
     align-self: flex-end;
   }
 }
